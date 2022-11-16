@@ -1,4 +1,26 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { FlowerList } from './components/flowerlist'
+
+class App extends Component {
+  render() {
+    return(
+      <div>
+        <FlowerList/>
+      </div>
+    )
+  }
+}
+
+export default App;
+
+
+
+
+
+
+
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,3 +45,4 @@ function App() {
 }
 
 export default App;
+*/
